@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f5f424-b209-4ca1-9b2d-a4a894a70253" name="Default Changelist" comment="" />
+    <list default="true" id="22f5f424-b209-4ca1-9b2d-a4a894a70253" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,8 +28,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1UvIXi9fwjVVzpRBOMGAwKaDmBL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -41,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ParamTestWithDataProvider2">
+  <component name="RunManager" selected="TestNG.ParamTestWithDataProvider2 and 5 more">
     <configuration name="DependancyWithAnnotationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,17 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionMessageUtilTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionMessageUtilTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParamTestWithDataProvider1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,6 +79,23 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParamTestWithDataProvider2 and 5 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgProject" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="ParamTestWithDataProvider2" />
+        <pattern testClass="ParamTestWithDataProvider1" />
+        <pattern testClass="MessageUtilTest" />
+        <pattern testClass="ExceptionMessageUtilTest" />
+        <pattern testClass="DependedMessageUtilTest" />
+        <pattern testClass="DependancyWithAnnotationTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ParamTestWithDataProvider2 and 5 more" />
         <item itemvalue="TestNG.ParamTestWithDataProvider2" />
         <item itemvalue="TestNG.ParamTestWithDataProvider1" />
         <item itemvalue="TestNG.DependancyWithAnnotationTest" />
         <item itemvalue="TestNG.DependedMessageUtilTest" />
-        <item itemvalue="TestNG.ExceptionMessageUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,5 +133,18 @@
       <updated>1576230683243</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
